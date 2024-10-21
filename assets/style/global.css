@@ -1,0 +1,171 @@
+/* NOTE: import font google */
+
+html {
+  position: relative;
+  font-size: 1vw;
+  scrollbar-gutter: stable;
+}
+@media (max-width: 769px) {
+  html {
+    font-size: 4.267vw;
+    scrollbar-gutter: auto;
+  }
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  /* NOTE: custom color */
+  background-color: #18a457;
+  border-radius: 0.5rem;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  /* NOTE: custom font */
+  font-family: "Averta Std CY", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.section-bg-img,
+.section-bg,
+.section-deco {
+  pointer-events: none;
+  user-select: none;
+}
+
+.swiper-slide,
+.swiper-slide img {
+  user-select: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* NOTE: CUSTOM CODE */
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCY-Thin_1.otf")
+    format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCy-Extrathin_1.otf")
+    format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCY-Regular_3.otf")
+    format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCY-Semibold_1.otf")
+    format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCY-Bold_1.otf")
+    format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCY-Extrabold_1.otf")
+    format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("../font/Intelligent\ Design\ -\ AvertaStdCY-Black_1.otf")
+    format("truetype");
+  font-weight: 900;
+}
+
+
+.h2,
+.h2 p {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.14rem;
+  background: linear-gradient(90deg, #15a256 0%, #2c7234 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ookisan custom css start*/
+
+@media (min-width: 770px) {
+  .underline-animation_multiLine {
+    display: inline;
+    position: relative;
+    transition: background-size 0.25s;
+    background: var(
+        --Text-Title-H2,
+        linear-gradient(90deg, #15a256 0%, #2c7234 100%)
+      )
+      no-repeat 100% 100%/0 1px;
+  }
+  .underline-animation_multiLine:hover {
+    color: #15a256;
+    background-size: 100% 1.2px;
+    background-position-x: left;
+  }
+  .underline-animation_multiLine span {
+    background: var(--Text-Title-H2, linear-gradient(90deg, #2A2A2A 0%, #2A2A2A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .underline-animation_multiLine:hover span {
+    background: var(--Text-Title-H2, linear-gradient(90deg, #15A256 0%, #2C7234 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.multiple_color_grey span {
+  -webkit-text-fill-color: #828282;
+  color: #828282;
+}
+
+.multiple_color_black span {
+  -webkit-text-fill-color: #2A2A2A;
+  color: #2A2A2A;
+}
+/* ookisan custom css end*/
+

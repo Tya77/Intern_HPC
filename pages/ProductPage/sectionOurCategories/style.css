@@ -1,0 +1,74 @@
+#section_catogorie {
+  background: #f9f5ea;
+  padding: 5rem 0;
+  position: relative;
+}
+
+.OurCategories-wrapper .title {
+  margin: 0 7.5rem;
+
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 4.2rem */
+  letter-spacing: -0.14rem;
+  background: var(
+    --Text-Title-H2,
+    linear-gradient(90deg, #15a256 0%, #2c7234 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.OurCategories-wrapper .swiper-container.swiper-categories {
+  overflow: hidden;
+  height: 14.375rem;
+  margin: 5rem 7.5rem;
+  margin-top: 2rem;
+}
+.OurCategories-wrapper
+  .swiper-container.swiper-categories
+  .swiper-wrapper
+  .swiper-slide {
+  display: flex;
+  width: 11.66669rem !important;
+  margin: 0 1.3rem;
+}
+.OurCategories-wrapper .swiper-categories .swiper-wrapper .swiper-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.OurCategories-wrapper .swiper-categories .swiper-wrapper .swiper-item span {
+  color: var(--Text-Scale-70, #313131);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 1.1375rem */
+  letter-spacing: -0.00875rem;
+}
+.OurCategories-wrapper
+  .swiper-container.swiper-categories
+  .swiper-wrapper
+  .swiper-slide
+  img {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: contain;
+}
+.OurCategories-wrapper .swiper-container.swiper-categories button {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.slider_button_next,
+.slider_button_prev {
+  position: absolute;
+}
+.slider_button_prev {
+  left: 3.5rem;
+  top: 18.66rem;
+}
+.slider_button_next {
+  right: 2.7rem;
+  top: 18.66rem;
+}
