@@ -1,0 +1,185 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Content Left */
+.breakcrumb {
+  cursor: pointer;
+  padding: 0.375rem 7.5rem;
+  padding-left: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 11.26%,
+    rgba(218, 218, 218, 0.3) 43.45%,
+    rgba(218, 218, 218, 0.3) 59.55%,
+    rgba(255, 255, 255, 0) 91.74%
+  );
+  /* margin-top: 8.69rem; */
+  color: var(--Text-Body-Body-30, #828282);
+  text-align: justify;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.6875rem */
+  letter-spacing: -0.01125rem;
+}
+.about-contentLeft {
+  width: 47.12rem;
+  display: flex;
+  padding: 7.5rem 0rem 10.5rem 7.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.about-contentLeft h1 {
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 4.5rem */
+  letter-spacing: -0.1875rem;
+  background: var(
+    --Text-Title-H2,
+    linear-gradient(90deg, #15a256 0%, #2c7234 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 4.6rem;
+  margin-bottom: 1rem;
+}
+.about-contentLeft p {
+  color: rgba(29, 29, 29, 0.7);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.6875rem */
+  letter-spacing: -0.01125rem;
+}
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-top: 3.5rem;
+}
+.company-info p {
+  color: var(--Text-Scale-80, #262626);
+  font-family: "Averta Std CY";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 141.4%; /* 2.121rem */
+}
+.company-info p:first-child {
+  margin-bottom: 1.25rem;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+
+  margin-top: 1.5rem;
+}
+.contact-item:first-child {
+  margin-top: 0;
+}
+.contact-item img {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.08075rem 0.1875rem 0.08075rem 0.18763rem;
+  margin-right: 0.75rem;
+}
+.contact-item p {
+  color: var(--Text-Body-Body-50---Main, #2a2a2a);
+  font-family: "Averta Std CY";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.6875rem */
+  letter-spacing: -0.01125rem;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+.social-icon img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.social-icon img:last-child {
+  margin-right: 0;
+}
+.map-container {
+  display: flex;
+  margin-top: 1.25rem;
+
+  /* height: 21.875rem; */
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: var(--16, 1rem);
+  background: linear-gradient(95deg, #11743e -37.19%, #18a457 131.31%);
+}
+.map {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.view-address {
+  display: flex;
+  padding: 1rem 1.5rem;
+  align-items: center;
+}
+.view-address p {
+  color: var(--text-body-inverse-white-inverse, #fff);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  margin-right: 0.75rem;
+}
+.view-address img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Content Right */
+.about-contentRight {
+  margin-left: 6rem;
+  width: 46.87rem;
+  display: flex;
+  padding-top: 4.75rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+.article {
+  display: flex;
+  width: 46.875rem;
+  height: 54rem;
+  align-items: flex-end;
+  margin-left: 10.63rem;
+}
+.article img {
+  height: 66.4375rem;
+  flex: 1 0 0;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
